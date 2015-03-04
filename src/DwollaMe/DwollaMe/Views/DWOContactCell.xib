@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DWOContactCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unknown" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uue-Gy-8IL">
+                    <rect key="frame" x="67" y="9" width="70" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unknown User" translatesAutoresizingMaskIntoConstraints="NO" id="3R1-KL-5EC" customClass="DWOAvatarImageView">
+                    <rect key="frame" x="15" y="5" width="44" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="ZJu-n3-MCa"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N/A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGS-OH-w0g">
+                    <rect key="frame" x="67" y="27" width="25" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wFF-0e-4kB">
+                    <rect key="frame" x="137" y="8" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="JqT-Pg-PiN"/>
+                        <constraint firstAttribute="width" constant="20" id="odM-xF-rt8"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uue-Gy-8IL" firstAttribute="leading" secondItem="3R1-KL-5EC" secondAttribute="trailing" constant="8" id="68N-Nm-fj3"/>
+                <constraint firstAttribute="bottom" secondItem="3R1-KL-5EC" secondAttribute="bottom" constant="5" id="Ius-E6-d1G"/>
+                <constraint firstItem="uue-Gy-8IL" firstAttribute="leading" secondItem="JGS-OH-w0g" secondAttribute="leading" id="L47-aX-AL3"/>
+                <constraint firstItem="uue-Gy-8IL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="9" id="MKs-qY-pOg"/>
+                <constraint firstItem="JGS-OH-w0g" firstAttribute="top" secondItem="uue-Gy-8IL" secondAttribute="bottom" constant="-2" id="Nha-Bu-zlL"/>
+                <constraint firstItem="wFF-0e-4kB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="blg-pg-B7R"/>
+                <constraint firstItem="wFF-0e-4kB" firstAttribute="leading" secondItem="uue-Gy-8IL" secondAttribute="trailing" id="jrJ-sW-1YP"/>
+                <constraint firstItem="3R1-KL-5EC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="kDa-Jz-qDm"/>
+                <constraint firstItem="3R1-KL-5EC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="m0L-SZ-TN0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="avatarImageView" destination="3R1-KL-5EC" id="k4s-Jb-Rdt"/>
+                <outlet property="nameLabel" destination="uue-Gy-8IL" id="IIM-Cc-uRw"/>
+                <outlet property="typeImageView" destination="wFF-0e-4kB" id="d5z-yn-Qxr"/>
+                <outlet property="typeLabel" destination="JGS-OH-w0g" id="Uei-8A-QCA"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="Unknown User" width="125" height="125"/>
+    </resources>
+</document>

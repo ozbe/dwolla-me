@@ -1,0 +1,1223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032D66EF18E65C52002CF2D5 /* DWOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D66EE18E65C52002CF2D5 /* DWOUser.m */; };
+		032D66F918EA1AE9002CF2D5 /* DWOBalanceFundStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D66F318EA1AE9002CF2D5 /* DWOBalanceFundStrategy.m */; };
+		032D66FA18EA1AE9002CF2D5 /* DWODepositToBalanceFundStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D66F518EA1AE9002CF2D5 /* DWODepositToBalanceFundStrategy.m */; };
+		032D66FB18EA1AE9002CF2D5 /* DWOWithdrawFromBalanceFundStategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D66F818EA1AE9002CF2D5 /* DWOWithdrawFromBalanceFundStategy.m */; };
+		032D670218EA1D05002CF2D5 /* DWOSendStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D670118EA1D05002CF2D5 /* DWOSendStrategy.m */; };
+		032D670518EA1D1A002CF2D5 /* DWOFulfillMoneyRequestStategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D670418EA1D1A002CF2D5 /* DWOFulfillMoneyRequestStategy.m */; };
+		032D670818EA242A002CF2D5 /* DWOContact+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D670718EA242A002CF2D5 /* DWOContact+Dwolla.m */; };
+		032D670B18EA244A002CF2D5 /* DWONearbyContact+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D670A18EA244A002CF2D5 /* DWONearbyContact+Dwolla.m */; };
+		032D670E18EA262B002CF2D5 /* DWOMoneyRequest+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D670D18EA262B002CF2D5 /* DWOMoneyRequest+Dwolla.m */; };
+		032DF3B418E39821009A37DD /* DWONearbyContactAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DF3B318E39821009A37DD /* DWONearbyContactAnnotation.m */; };
+		032DF3CC18E3985D009A37DD /* DWOContactsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DF3C318E3985D009A37DD /* DWOContactsDataSource.m */; };
+		032DF3CD18E3985D009A37DD /* DWONearbyContactsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DF3C518E3985D009A37DD /* DWONearbyContactsDataSource.m */; };
+		032DF3CE18E3985D009A37DD /* DWONearbyContactsMapViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DF3C718E3985D009A37DD /* DWONearbyContactsMapViewDataSource.m */; };
+		032DF3CF18E3985D009A37DD /* DWONearbyContactsTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DF3C918E3985D009A37DD /* DWONearbyContactsTableViewDataSource.m */; };
+		032DF3D018E3985D009A37DD /* DWOMoneyRequestsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DF3CB18E3985D009A37DD /* DWOMoneyRequestsDataSource.m */; };
+		032DF3D318E398A8009A37DD /* DWOFundingSourcesPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DF3D218E398A8009A37DD /* DWOFundingSourcesPicker.m */; };
+		032DF3D618E39A1B009A37DD /* DWOTransactionCell+DWOTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DF3D518E39A1B009A37DD /* DWOTransactionCell+DWOTransaction.m */; };
+		032DF3D918E39E9E009A37DD /* DWOTransactionCell+DWOMoneyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DF3D818E39E9E009A37DD /* DWOTransactionCell+DWOMoneyRequest.m */; };
+		0339856F18D674AE005820AC /* DWODateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339856E18D674AE005820AC /* DWODateFormatter.m */; };
+		0339857218D9028E005820AC /* DWOTransaction+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339857118D9028E005820AC /* DWOTransaction+Dwolla.m */; };
+		0339857518D94756005820AC /* DWOFulfillMoneyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339857418D94756005820AC /* DWOFulfillMoneyRequest.m */; };
+		0339857818D94779005820AC /* DWOFulfillResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339857718D94779005820AC /* DWOFulfillResponse.m */; };
+		0339857D18D95889005820AC /* NSObject+NSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339857C18D95889005820AC /* NSObject+NSNull.m */; };
+		033AACFA18C56AC900C7D6CC /* DWOPaddedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 033AACF918C56AC900C7D6CC /* DWOPaddedLabel.m */; };
+		036183A418DE90DF00473EBC /* DWORequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036183A318DE90DF00473EBC /* DWORequestsViewController.m */; };
+		036183A718DF5A3100473EBC /* NSString+DWOTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 036183A618DF5A3100473EBC /* NSString+DWOTransaction.m */; };
+		036183AA18DF5BD200473EBC /* DWORequestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 036183A918DF5BD200473EBC /* DWORequestResponse.m */; };
+		036183AD18DF5C1D00473EBC /* DWORequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 036183AC18DF5C1D00473EBC /* DWORequest.m */; };
+		036183B018E1013300473EBC /* DWORequestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 036183AF18E1013300473EBC /* DWORequestCell.m */; };
+		036183B418E1280400473EBC /* DWOAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 036183B318E1280400473EBC /* DWOAccount.m */; };
+		036183BA18E12EDB00473EBC /* DWOMoneyRequestFee.m in Sources */ = {isa = PBXBuildFile; fileRef = 036183B918E12EDB00473EBC /* DWOMoneyRequestFee.m */; };
+		036183C018E148EA00473EBC /* DWORequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036183BF18E148EA00473EBC /* DWORequestViewController.m */; };
+		036936D718CA9D69007A78A7 /* DWOBalancedSourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 036936D618CA9D69007A78A7 /* DWOBalancedSourceCell.m */; };
+		036936DE18CE562A007A78A7 /* DWOFundingSource+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 036936DD18CE562A007A78A7 /* DWOFundingSource+Dwolla.m */; };
+		037DB66418C3AD2000C037D8 /* DWOTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DB66318C3AD2000C037D8 /* DWOTransferViewController.m */; };
+		037DB66718C3C9EA00C037D8 /* DWOSendToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DB66618C3C9EA00C037D8 /* DWOSendToolbar.m */; };
+		0385AD1118C6B01A0031731D /* NSString+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 0385AD1018C6B01A0031731D /* NSString+Dwolla.m */; };
+		03A06B9018A8B037008D03E0 /* DWORestApiConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B8918A8B037008D03E0 /* DWORestApiConstants.m */; };
+		03A06B9118A8B037008D03E0 /* DWONotificationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B8B18A8B037008D03E0 /* DWONotificationConstants.m */; };
+		03A06B9218A8B037008D03E0 /* DWOSegueConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B8D18A8B037008D03E0 /* DWOSegueConstants.m */; };
+		03A06B9318A8B037008D03E0 /* DWOErrorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B8F18A8B037008D03E0 /* DWOErrorConstants.m */; };
+		03A06BA218A8B06A008D03E0 /* DWOTransaction+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B9518A8B06A008D03E0 /* DWOTransaction+Display.m */; };
+		03A06BA318A8B06A008D03E0 /* NSDate+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B9718A8B06A008D03E0 /* NSDate+Dwolla.m */; };
+		03A06BA418A8B06A008D03E0 /* NSNumber+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B9918A8B06A008D03E0 /* NSNumber+Dwolla.m */; };
+		03A06BA518A8B06A008D03E0 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B9B18A8B06A008D03E0 /* NSString+URLEncoding.m */; };
+		03A06BA618A8B06A008D03E0 /* UIColor+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B9D18A8B06A008D03E0 /* UIColor+Dwolla.m */; };
+		03A06BA718A8B06A008D03E0 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B9F18A8B06A008D03E0 /* UIImage+ImageEffects.m */; };
+		03A06BA818A8B06A008D03E0 /* UIView+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BA118A8B06A008D03E0 /* UIView+ImageEffects.m */; };
+		03A06BB918A8B085008D03E0 /* DWOContactsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BAA18A8B085008D03E0 /* DWOContactsClient.m */; };
+		03A06BBA18A8B085008D03E0 /* DWORestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BAC18A8B085008D03E0 /* DWORestClient.m */; };
+		03A06BBB18A8B085008D03E0 /* DWOCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BAE18A8B085008D03E0 /* DWOCredentials.m */; };
+		03A06BBC18A8B085008D03E0 /* DWOFundingSourcesClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BB018A8B085008D03E0 /* DWOFundingSourcesClient.m */; };
+		03A06BBD18A8B085008D03E0 /* DWOMoneyRequestsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BB218A8B085008D03E0 /* DWOMoneyRequestsClient.m */; };
+		03A06BBE18A8B085008D03E0 /* DWOTransactionsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BB418A8B085008D03E0 /* DWOTransactionsClient.m */; };
+		03A06BBF18A8B085008D03E0 /* DWOUsersClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BB618A8B085008D03E0 /* DWOUsersClient.m */; };
+		03A06BC018A8B085008D03E0 /* DWOTransactionConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BB818A8B085008D03E0 /* DWOTransactionConverter.m */; };
+		03A06BEC18A8B0A2008D03E0 /* DWOBoolSearchOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BC218A8B0A2008D03E0 /* DWOBoolSearchOption.m */; };
+		03A06BED18A8B0A2008D03E0 /* DWOContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BC418A8B0A2008D03E0 /* DWOContact.m */; };
+		03A06BEE18A8B0A2008D03E0 /* DWOFundingSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BC618A8B0A2008D03E0 /* DWOFundingSource.m */; };
+		03A06BEF18A8B0A2008D03E0 /* DWONearbyContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BC818A8B0A2008D03E0 /* DWONearbyContact.m */; };
+		03A06BF018A8B0A2008D03E0 /* DWOMoneyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BCA18A8B0A2008D03E0 /* DWOMoneyRequest.m */; };
+		03A06BF118A8B0A2008D03E0 /* DWOSendRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BCC18A8B0A2008D03E0 /* DWOSendRequest.m */; };
+		03A06BF218A8B0A2008D03E0 /* DWOSendResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BCE18A8B0A2008D03E0 /* DWOSendResponse.m */; };
+		03A06BF318A8B0A2008D03E0 /* DWOTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BD018A8B0A2008D03E0 /* DWOTransaction.m */; };
+		03A06BF418A8B0A2008D03E0 /* DWOTransactionFee.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BD218A8B0A2008D03E0 /* DWOTransactionFee.m */; };
+		03A06BF618A8B0A2008D03E0 /* DWOUserSearchFilterOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BD618A8B0A2008D03E0 /* DWOUserSearchFilterOption.m */; };
+		03A06BF718A8B0A2008D03E0 /* DWOUserSearchFilterOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BD818A8B0A2008D03E0 /* DWOUserSearchFilterOptions.m */; };
+		03A06BFB18A8B0A2008D03E0 /* DWONearbyContactsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BE018A8B0A2008D03E0 /* DWONearbyContactsRequest.m */; };
+		03A06BFC18A8B0A2008D03E0 /* DWOFundRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BE218A8B0A2008D03E0 /* DWOFundRequest.m */; };
+		03A06C0018A8B0A2008D03E0 /* DWOMoneyRequestsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BEB18A8B0A2008D03E0 /* DWOMoneyRequestsRequest.m */; };
+		03A06C1F18A8B0B3008D03E0 /* DWOActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C0218A8B0B3008D03E0 /* DWOActivityViewController.m */; };
+		03A06C2018A8B0B3008D03E0 /* DWOConfirmSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C0418A8B0B3008D03E0 /* DWOConfirmSendViewController.m */; };
+		03A06C2118A8B0B3008D03E0 /* DWOWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C0618A8B0B3008D03E0 /* DWOWebViewController.m */; };
+		03A06C2318A8B0B3008D03E0 /* DWOFundingSourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C0A18A8B0B3008D03E0 /* DWOFundingSourcesViewController.m */; };
+		03A06C2418A8B0B3008D03E0 /* DWOMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C0C18A8B0B3008D03E0 /* DWOMainViewController.m */; };
+		03A06C2518A8B0B3008D03E0 /* DWOOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C0E18A8B0B3008D03E0 /* DWOOAuthViewController.m */; };
+		03A06C2718A8B0B3008D03E0 /* DWOSearchFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C1218A8B0B3008D03E0 /* DWOSearchFilterViewController.m */; };
+		03A06C2818A8B0B3008D03E0 /* DWOSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C1418A8B0B3008D03E0 /* DWOSearchViewController.m */; };
+		03A06C2A18A8B0B3008D03E0 /* DWOMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C1818A8B0B3008D03E0 /* DWOMeViewController.m */; };
+		03A06C2B18A8B0B3008D03E0 /* DWOTransactionFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C1A18A8B0B3008D03E0 /* DWOTransactionFilterViewController.m */; };
+		03A06C2C18A8B0B3008D03E0 /* DWOTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C1C18A8B0B3008D03E0 /* DWOTransactionViewController.m */; };
+		03A06C2D18A8B0B3008D03E0 /* DWOFundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C1E18A8B0B3008D03E0 /* DWOFundViewController.m */; };
+		03A06C3818A8B0D3008D03E0 /* DWOAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C2F18A8B0D3008D03E0 /* DWOAvatarImageView.m */; };
+		03A06C3918A8B0D3008D03E0 /* DWOContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C3118A8B0D3008D03E0 /* DWOContactCell.m */; };
+		03A06C3A18A8B0D3008D03E0 /* DWOContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A06C3218A8B0D3008D03E0 /* DWOContactCell.xib */; };
+		03A06C3B18A8B0D3008D03E0 /* DWONearbyContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C3418A8B0D3008D03E0 /* DWONearbyContactCell.m */; };
+		03A06C3C18A8B0D3008D03E0 /* DWONearbyContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A06C3518A8B0D3008D03E0 /* DWONearbyContactCell.xib */; };
+		03A06C3D18A8B0D3008D03E0 /* DWOTransactionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C3718A8B0D3008D03E0 /* DWOTransactionCell.m */; };
+		03A06C5118A8B155008D03E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A06C5018A8B155008D03E0 /* Images.xcassets */; };
+		03A06C5318A8B16A008D03E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A06C5218A8B16A008D03E0 /* Main.storyboard */; };
+		03A06C5518A8B202008D03E0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A06C5418A8B202008D03E0 /* libz.dylib */; };
+		03A06C5718A8B20D008D03E0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A06C5618A8B20D008D03E0 /* Social.framework */; };
+		03A06C5918A8B217008D03E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A06C5818A8B217008D03E0 /* CoreLocation.framework */; };
+		03A06C5C18A8B69B008D03E0 /* DWOAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06C5B18A8B69B008D03E0 /* DWOAppConstants.m */; };
+		03A9681E18AB65DF006ADFF8 /* DWODestination.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A9681D18AB65DF006ADFF8 /* DWODestination.m */; };
+		03A9682118AC61BA006ADFF8 /* DWOContactSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A9682018AC61BA006ADFF8 /* DWOContactSearchRequest.m */; };
+		03C2F3F718B3216D008557C1 /* DWOTransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C2F3F618B3216D008557C1 /* DWOTransactionCell.xib */; };
+		03C2F3FB18B462B5008557C1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C2F3FA18B462B5008557C1 /* MapKit.framework */; };
+		03E2EC3A18C23D2000ECE6AD /* DWOTransactionsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2EC3918C23D2000ECE6AD /* DWOTransactionsRequest.m */; };
+		03E2EC3D18C2648000ECE6AD /* NSError+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2EC3C18C2648000ECE6AD /* NSError+Dwolla.m */; };
+		03EA6AA918A5A8A600C6F257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA6AA818A5A8A600C6F257 /* Foundation.framework */; };
+		03EA6AAB18A5A8A600C6F257 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA6AAA18A5A8A600C6F257 /* CoreGraphics.framework */; };
+		03EA6AAD18A5A8A600C6F257 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA6AAC18A5A8A600C6F257 /* UIKit.framework */; };
+		03EA6AB318A5A8A600C6F257 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03EA6AB118A5A8A600C6F257 /* InfoPlist.strings */; };
+		03EA6AB518A5A8A600C6F257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA6AB418A5A8A600C6F257 /* main.m */; };
+		03EA6AB918A5A8A600C6F257 /* DWOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA6AB818A5A8A600C6F257 /* DWOAppDelegate.m */; };
+		03EA6AC818A5A8A600C6F257 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA6AC718A5A8A600C6F257 /* XCTest.framework */; };
+		03EA6AC918A5A8A600C6F257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA6AA818A5A8A600C6F257 /* Foundation.framework */; };
+		03EA6ACA18A5A8A600C6F257 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA6AAC18A5A8A600C6F257 /* UIKit.framework */; };
+		03EA6AD218A5A8A600C6F257 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03EA6AD018A5A8A600C6F257 /* InfoPlist.strings */; };
+		03FD092918CFB3E700690B83 /* DWOIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD092818CFB3E700690B83 /* DWOIntroViewController.m */; };
+		1B45A954EB15499D9B59CC98 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D547937D4249E884DC4468 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03EA6ACB18A5A8A600C6F257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03EA6A9D18A5A8A600C6F257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EA6AA418A5A8A600C6F257;
+			remoteInfo = DwollaMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D547937D4249E884DC4468 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		032D66ED18E65C52002CF2D5 /* DWOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOUser.h; sourceTree = "<group>"; };
+		032D66EE18E65C52002CF2D5 /* DWOUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOUser.m; sourceTree = "<group>"; };
+		032D66F218EA1AE9002CF2D5 /* DWOBalanceFundStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOBalanceFundStrategy.h; sourceTree = "<group>"; };
+		032D66F318EA1AE9002CF2D5 /* DWOBalanceFundStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOBalanceFundStrategy.m; sourceTree = "<group>"; };
+		032D66F418EA1AE9002CF2D5 /* DWODepositToBalanceFundStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWODepositToBalanceFundStrategy.h; sourceTree = "<group>"; };
+		032D66F518EA1AE9002CF2D5 /* DWODepositToBalanceFundStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWODepositToBalanceFundStrategy.m; sourceTree = "<group>"; };
+		032D66F618EA1AE9002CF2D5 /* DWOFundStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOFundStrategy.h; sourceTree = "<group>"; };
+		032D66F718EA1AE9002CF2D5 /* DWOWithdrawFromBalanceFundStategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOWithdrawFromBalanceFundStategy.h; sourceTree = "<group>"; };
+		032D66F818EA1AE9002CF2D5 /* DWOWithdrawFromBalanceFundStategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOWithdrawFromBalanceFundStategy.m; sourceTree = "<group>"; };
+		032D66FC18EA1BCF002CF2D5 /* DWOTransferStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWOTransferStrategy.h; sourceTree = "<group>"; };
+		032D670018EA1D05002CF2D5 /* DWOSendStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOSendStrategy.h; sourceTree = "<group>"; };
+		032D670118EA1D05002CF2D5 /* DWOSendStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOSendStrategy.m; sourceTree = "<group>"; };
+		032D670318EA1D1A002CF2D5 /* DWOFulfillMoneyRequestStategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOFulfillMoneyRequestStategy.h; sourceTree = "<group>"; };
+		032D670418EA1D1A002CF2D5 /* DWOFulfillMoneyRequestStategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOFulfillMoneyRequestStategy.m; sourceTree = "<group>"; };
+		032D670618EA242A002CF2D5 /* DWOContact+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DWOContact+Dwolla.h"; sourceTree = "<group>"; };
+		032D670718EA242A002CF2D5 /* DWOContact+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DWOContact+Dwolla.m"; sourceTree = "<group>"; };
+		032D670918EA244A002CF2D5 /* DWONearbyContact+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DWONearbyContact+Dwolla.h"; sourceTree = "<group>"; };
+		032D670A18EA244A002CF2D5 /* DWONearbyContact+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DWONearbyContact+Dwolla.m"; sourceTree = "<group>"; };
+		032D670C18EA262B002CF2D5 /* DWOMoneyRequest+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DWOMoneyRequest+Dwolla.h"; sourceTree = "<group>"; };
+		032D670D18EA262B002CF2D5 /* DWOMoneyRequest+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DWOMoneyRequest+Dwolla.m"; sourceTree = "<group>"; };
+		032DF3B218E39821009A37DD /* DWONearbyContactAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWONearbyContactAnnotation.h; path = ViewModels/DWONearbyContactAnnotation.h; sourceTree = "<group>"; };
+		032DF3B318E39821009A37DD /* DWONearbyContactAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWONearbyContactAnnotation.m; path = ViewModels/DWONearbyContactAnnotation.m; sourceTree = "<group>"; };
+		032DF3C218E3985D009A37DD /* DWOContactsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOContactsDataSource.h; sourceTree = "<group>"; };
+		032DF3C318E3985D009A37DD /* DWOContactsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOContactsDataSource.m; sourceTree = "<group>"; };
+		032DF3C418E3985D009A37DD /* DWONearbyContactsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWONearbyContactsDataSource.h; sourceTree = "<group>"; };
+		032DF3C518E3985D009A37DD /* DWONearbyContactsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWONearbyContactsDataSource.m; sourceTree = "<group>"; };
+		032DF3C618E3985D009A37DD /* DWONearbyContactsMapViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWONearbyContactsMapViewDataSource.h; sourceTree = "<group>"; };
+		032DF3C718E3985D009A37DD /* DWONearbyContactsMapViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWONearbyContactsMapViewDataSource.m; sourceTree = "<group>"; };
+		032DF3C818E3985D009A37DD /* DWONearbyContactsTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWONearbyContactsTableViewDataSource.h; sourceTree = "<group>"; };
+		032DF3C918E3985D009A37DD /* DWONearbyContactsTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWONearbyContactsTableViewDataSource.m; sourceTree = "<group>"; };
+		032DF3CA18E3985D009A37DD /* DWOMoneyRequestsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOMoneyRequestsDataSource.h; sourceTree = "<group>"; };
+		032DF3CB18E3985D009A37DD /* DWOMoneyRequestsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOMoneyRequestsDataSource.m; sourceTree = "<group>"; };
+		032DF3D118E398A8009A37DD /* DWOFundingSourcesPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOFundingSourcesPicker.h; sourceTree = "<group>"; };
+		032DF3D218E398A8009A37DD /* DWOFundingSourcesPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOFundingSourcesPicker.m; sourceTree = "<group>"; };
+		032DF3D418E39A1B009A37DD /* DWOTransactionCell+DWOTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DWOTransactionCell+DWOTransaction.h"; sourceTree = "<group>"; };
+		032DF3D518E39A1B009A37DD /* DWOTransactionCell+DWOTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DWOTransactionCell+DWOTransaction.m"; sourceTree = "<group>"; };
+		032DF3D718E39E9E009A37DD /* DWOTransactionCell+DWOMoneyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DWOTransactionCell+DWOMoneyRequest.h"; sourceTree = "<group>"; };
+		032DF3D818E39E9E009A37DD /* DWOTransactionCell+DWOMoneyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DWOTransactionCell+DWOMoneyRequest.m"; sourceTree = "<group>"; };
+		0339856D18D674AE005820AC /* DWODateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWODateFormatter.h; sourceTree = "<group>"; };
+		0339856E18D674AE005820AC /* DWODateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWODateFormatter.m; sourceTree = "<group>"; };
+		0339857018D9028E005820AC /* DWOTransaction+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DWOTransaction+Dwolla.h"; sourceTree = "<group>"; };
+		0339857118D9028E005820AC /* DWOTransaction+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DWOTransaction+Dwolla.m"; sourceTree = "<group>"; };
+		0339857318D94756005820AC /* DWOFulfillMoneyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOFulfillMoneyRequest.h; sourceTree = "<group>"; };
+		0339857418D94756005820AC /* DWOFulfillMoneyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOFulfillMoneyRequest.m; sourceTree = "<group>"; };
+		0339857618D94779005820AC /* DWOFulfillResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOFulfillResponse.h; sourceTree = "<group>"; };
+		0339857718D94779005820AC /* DWOFulfillResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOFulfillResponse.m; sourceTree = "<group>"; };
+		0339857B18D95889005820AC /* NSObject+NSNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSNull.h"; sourceTree = "<group>"; };
+		0339857C18D95889005820AC /* NSObject+NSNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSNull.m"; sourceTree = "<group>"; };
+		033AACF818C56AC900C7D6CC /* DWOPaddedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOPaddedLabel.h; sourceTree = "<group>"; };
+		033AACF918C56AC900C7D6CC /* DWOPaddedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOPaddedLabel.m; sourceTree = "<group>"; };
+		036183A218DE90DF00473EBC /* DWORequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWORequestsViewController.h; sourceTree = "<group>"; };
+		036183A318DE90DF00473EBC /* DWORequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWORequestsViewController.m; sourceTree = "<group>"; };
+		036183A518DF5A3100473EBC /* NSString+DWOTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DWOTransaction.h"; sourceTree = "<group>"; };
+		036183A618DF5A3100473EBC /* NSString+DWOTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DWOTransaction.m"; sourceTree = "<group>"; };
+		036183A818DF5BD200473EBC /* DWORequestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWORequestResponse.h; sourceTree = "<group>"; };
+		036183A918DF5BD200473EBC /* DWORequestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWORequestResponse.m; sourceTree = "<group>"; };
+		036183AB18DF5C1D00473EBC /* DWORequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWORequest.h; sourceTree = "<group>"; };
+		036183AC18DF5C1D00473EBC /* DWORequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWORequest.m; sourceTree = "<group>"; };
+		036183AE18E1013300473EBC /* DWORequestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWORequestCell.h; sourceTree = "<group>"; };
+		036183AF18E1013300473EBC /* DWORequestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWORequestCell.m; sourceTree = "<group>"; };
+		036183B218E1280400473EBC /* DWOAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOAccount.h; sourceTree = "<group>"; };
+		036183B318E1280400473EBC /* DWOAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOAccount.m; sourceTree = "<group>"; };
+		036183B818E12EDB00473EBC /* DWOMoneyRequestFee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOMoneyRequestFee.h; sourceTree = "<group>"; };
+		036183B918E12EDB00473EBC /* DWOMoneyRequestFee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOMoneyRequestFee.m; sourceTree = "<group>"; };
+		036183BE18E148EA00473EBC /* DWORequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWORequestViewController.h; sourceTree = "<group>"; };
+		036183BF18E148EA00473EBC /* DWORequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWORequestViewController.m; sourceTree = "<group>"; };
+		036936D518CA9D69007A78A7 /* DWOBalancedSourceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOBalancedSourceCell.h; sourceTree = "<group>"; };
+		036936D618CA9D69007A78A7 /* DWOBalancedSourceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOBalancedSourceCell.m; sourceTree = "<group>"; };
+		036936DC18CE562A007A78A7 /* DWOFundingSource+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DWOFundingSource+Dwolla.h"; sourceTree = "<group>"; };
+		036936DD18CE562A007A78A7 /* DWOFundingSource+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DWOFundingSource+Dwolla.m"; sourceTree = "<group>"; };
+		037DB66218C3AD2000C037D8 /* DWOTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOTransferViewController.h; sourceTree = "<group>"; };
+		037DB66318C3AD2000C037D8 /* DWOTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOTransferViewController.m; sourceTree = "<group>"; };
+		037DB66518C3C9EA00C037D8 /* DWOSendToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOSendToolbar.h; sourceTree = "<group>"; };
+		037DB66618C3C9EA00C037D8 /* DWOSendToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOSendToolbar.m; sourceTree = "<group>"; };
+		0385AD0F18C6B01A0031731D /* NSString+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Dwolla.h"; sourceTree = "<group>"; };
+		0385AD1018C6B01A0031731D /* NSString+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Dwolla.m"; sourceTree = "<group>"; };
+		03A06B8818A8B037008D03E0 /* DWORestApiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWORestApiConstants.h; sourceTree = "<group>"; };
+		03A06B8918A8B037008D03E0 /* DWORestApiConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWORestApiConstants.m; sourceTree = "<group>"; };
+		03A06B8A18A8B037008D03E0 /* DWONotificationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWONotificationConstants.h; sourceTree = "<group>"; };
+		03A06B8B18A8B037008D03E0 /* DWONotificationConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWONotificationConstants.m; sourceTree = "<group>"; };
+		03A06B8C18A8B037008D03E0 /* DWOSegueConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOSegueConstants.h; sourceTree = "<group>"; };
+		03A06B8D18A8B037008D03E0 /* DWOSegueConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOSegueConstants.m; sourceTree = "<group>"; };
+		03A06B8E18A8B037008D03E0 /* DWOErrorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOErrorConstants.h; sourceTree = "<group>"; };
+		03A06B8F18A8B037008D03E0 /* DWOErrorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOErrorConstants.m; sourceTree = "<group>"; };
+		03A06B9418A8B06A008D03E0 /* DWOTransaction+Display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DWOTransaction+Display.h"; sourceTree = "<group>"; };
+		03A06B9518A8B06A008D03E0 /* DWOTransaction+Display.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DWOTransaction+Display.m"; sourceTree = "<group>"; };
+		03A06B9618A8B06A008D03E0 /* NSDate+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Dwolla.h"; sourceTree = "<group>"; };
+		03A06B9718A8B06A008D03E0 /* NSDate+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Dwolla.m"; sourceTree = "<group>"; };
+		03A06B9818A8B06A008D03E0 /* NSNumber+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Dwolla.h"; sourceTree = "<group>"; };
+		03A06B9918A8B06A008D03E0 /* NSNumber+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Dwolla.m"; sourceTree = "<group>"; };
+		03A06B9A18A8B06A008D03E0 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		03A06B9B18A8B06A008D03E0 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		03A06B9C18A8B06A008D03E0 /* UIColor+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Dwolla.h"; sourceTree = "<group>"; };
+		03A06B9D18A8B06A008D03E0 /* UIColor+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Dwolla.m"; sourceTree = "<group>"; };
+		03A06B9E18A8B06A008D03E0 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		03A06B9F18A8B06A008D03E0 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		03A06BA018A8B06A008D03E0 /* UIView+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIView+ImageEffects.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06BA118A8B06A008D03E0 /* UIView+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIView+ImageEffects.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06BA918A8B085008D03E0 /* DWOContactsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOContactsClient.h; path = ../DWOContactsClient.h; sourceTree = "<group>"; };
+		03A06BAA18A8B085008D03E0 /* DWOContactsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOContactsClient.m; path = ../DWOContactsClient.m; sourceTree = "<group>"; };
+		03A06BAB18A8B085008D03E0 /* DWORestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWORestClient.h; path = ../DWORestClient.h; sourceTree = "<group>"; };
+		03A06BAC18A8B085008D03E0 /* DWORestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWORestClient.m; path = ../DWORestClient.m; sourceTree = "<group>"; };
+		03A06BAD18A8B085008D03E0 /* DWOCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOCredentials.h; path = ../DWOCredentials.h; sourceTree = "<group>"; };
+		03A06BAE18A8B085008D03E0 /* DWOCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOCredentials.m; path = ../DWOCredentials.m; sourceTree = "<group>"; };
+		03A06BAF18A8B085008D03E0 /* DWOFundingSourcesClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOFundingSourcesClient.h; path = ../DWOFundingSourcesClient.h; sourceTree = "<group>"; };
+		03A06BB018A8B085008D03E0 /* DWOFundingSourcesClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOFundingSourcesClient.m; path = ../DWOFundingSourcesClient.m; sourceTree = "<group>"; };
+		03A06BB118A8B085008D03E0 /* DWOMoneyRequestsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOMoneyRequestsClient.h; path = ../DWOMoneyRequestsClient.h; sourceTree = "<group>"; };
+		03A06BB218A8B085008D03E0 /* DWOMoneyRequestsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOMoneyRequestsClient.m; path = ../DWOMoneyRequestsClient.m; sourceTree = "<group>"; };
+		03A06BB318A8B085008D03E0 /* DWOTransactionsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOTransactionsClient.h; path = ../DWOTransactionsClient.h; sourceTree = "<group>"; };
+		03A06BB418A8B085008D03E0 /* DWOTransactionsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOTransactionsClient.m; path = ../DWOTransactionsClient.m; sourceTree = "<group>"; };
+		03A06BB518A8B085008D03E0 /* DWOUsersClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOUsersClient.h; path = ../DWOUsersClient.h; sourceTree = "<group>"; };
+		03A06BB618A8B085008D03E0 /* DWOUsersClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOUsersClient.m; path = ../DWOUsersClient.m; sourceTree = "<group>"; };
+		03A06BB718A8B085008D03E0 /* DWOTransactionConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOTransactionConverter.h; path = ../DWOTransactionConverter.h; sourceTree = "<group>"; };
+		03A06BB818A8B085008D03E0 /* DWOTransactionConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOTransactionConverter.m; path = ../DWOTransactionConverter.m; sourceTree = "<group>"; };
+		03A06BC118A8B0A2008D03E0 /* DWOBoolSearchOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOBoolSearchOption.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06BC218A8B0A2008D03E0 /* DWOBoolSearchOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOBoolSearchOption.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06BC318A8B0A2008D03E0 /* DWOContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOContact.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06BC418A8B0A2008D03E0 /* DWOContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOContact.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06BC518A8B0A2008D03E0 /* DWOFundingSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOFundingSource.h; sourceTree = "<group>"; };
+		03A06BC618A8B0A2008D03E0 /* DWOFundingSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOFundingSource.m; sourceTree = "<group>"; };
+		03A06BC718A8B0A2008D03E0 /* DWONearbyContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWONearbyContact.h; sourceTree = "<group>"; };
+		03A06BC818A8B0A2008D03E0 /* DWONearbyContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWONearbyContact.m; sourceTree = "<group>"; };
+		03A06BC918A8B0A2008D03E0 /* DWOMoneyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOMoneyRequest.h; sourceTree = "<group>"; };
+		03A06BCA18A8B0A2008D03E0 /* DWOMoneyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOMoneyRequest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06BCB18A8B0A2008D03E0 /* DWOSendRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOSendRequest.h; sourceTree = "<group>"; };
+		03A06BCC18A8B0A2008D03E0 /* DWOSendRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOSendRequest.m; sourceTree = "<group>"; };
+		03A06BCD18A8B0A2008D03E0 /* DWOSendResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOSendResponse.h; sourceTree = "<group>"; };
+		03A06BCE18A8B0A2008D03E0 /* DWOSendResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOSendResponse.m; sourceTree = "<group>"; };
+		03A06BCF18A8B0A2008D03E0 /* DWOTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOTransaction.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06BD018A8B0A2008D03E0 /* DWOTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOTransaction.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06BD118A8B0A2008D03E0 /* DWOTransactionFee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOTransactionFee.h; sourceTree = "<group>"; };
+		03A06BD218A8B0A2008D03E0 /* DWOTransactionFee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOTransactionFee.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06BD518A8B0A2008D03E0 /* DWOUserSearchFilterOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOUserSearchFilterOption.h; sourceTree = "<group>"; };
+		03A06BD618A8B0A2008D03E0 /* DWOUserSearchFilterOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOUserSearchFilterOption.m; sourceTree = "<group>"; };
+		03A06BD718A8B0A2008D03E0 /* DWOUserSearchFilterOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOUserSearchFilterOptions.h; sourceTree = "<group>"; };
+		03A06BD818A8B0A2008D03E0 /* DWOUserSearchFilterOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOUserSearchFilterOptions.m; sourceTree = "<group>"; };
+		03A06BDF18A8B0A2008D03E0 /* DWONearbyContactsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWONearbyContactsRequest.h; sourceTree = "<group>"; };
+		03A06BE018A8B0A2008D03E0 /* DWONearbyContactsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWONearbyContactsRequest.m; sourceTree = "<group>"; };
+		03A06BE118A8B0A2008D03E0 /* DWOFundRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOFundRequest.h; sourceTree = "<group>"; };
+		03A06BE218A8B0A2008D03E0 /* DWOFundRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOFundRequest.m; sourceTree = "<group>"; };
+		03A06BEA18A8B0A2008D03E0 /* DWOMoneyRequestsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOMoneyRequestsRequest.h; sourceTree = "<group>"; };
+		03A06BEB18A8B0A2008D03E0 /* DWOMoneyRequestsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOMoneyRequestsRequest.m; sourceTree = "<group>"; };
+		03A06C0118A8B0B3008D03E0 /* DWOActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOActivityViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06C0218A8B0B3008D03E0 /* DWOActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOActivityViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06C0318A8B0B3008D03E0 /* DWOConfirmSendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOConfirmSendViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06C0418A8B0B3008D03E0 /* DWOConfirmSendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOConfirmSendViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06C0518A8B0B3008D03E0 /* DWOWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOWebViewController.h; sourceTree = "<group>"; };
+		03A06C0618A8B0B3008D03E0 /* DWOWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOWebViewController.m; sourceTree = "<group>"; };
+		03A06C0918A8B0B3008D03E0 /* DWOFundingSourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOFundingSourcesViewController.h; sourceTree = "<group>"; };
+		03A06C0A18A8B0B3008D03E0 /* DWOFundingSourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOFundingSourcesViewController.m; sourceTree = "<group>"; };
+		03A06C0B18A8B0B3008D03E0 /* DWOMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOMainViewController.h; sourceTree = "<group>"; };
+		03A06C0C18A8B0B3008D03E0 /* DWOMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOMainViewController.m; sourceTree = "<group>"; };
+		03A06C0D18A8B0B3008D03E0 /* DWOOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOOAuthViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06C0E18A8B0B3008D03E0 /* DWOOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOOAuthViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06C1118A8B0B3008D03E0 /* DWOSearchFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOSearchFilterViewController.h; sourceTree = "<group>"; };
+		03A06C1218A8B0B3008D03E0 /* DWOSearchFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOSearchFilterViewController.m; sourceTree = "<group>"; };
+		03A06C1318A8B0B3008D03E0 /* DWOSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOSearchViewController.h; sourceTree = "<group>"; };
+		03A06C1418A8B0B3008D03E0 /* DWOSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOSearchViewController.m; sourceTree = "<group>"; };
+		03A06C1718A8B0B3008D03E0 /* DWOMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOMeViewController.h; sourceTree = "<group>"; };
+		03A06C1818A8B0B3008D03E0 /* DWOMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOMeViewController.m; sourceTree = "<group>"; };
+		03A06C1918A8B0B3008D03E0 /* DWOTransactionFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOTransactionFilterViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06C1A18A8B0B3008D03E0 /* DWOTransactionFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOTransactionFilterViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06C1B18A8B0B3008D03E0 /* DWOTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOTransactionViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06C1C18A8B0B3008D03E0 /* DWOTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOTransactionViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06C1D18A8B0B3008D03E0 /* DWOFundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOFundViewController.h; sourceTree = "<group>"; };
+		03A06C1E18A8B0B3008D03E0 /* DWOFundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOFundViewController.m; sourceTree = "<group>"; };
+		03A06C2E18A8B0D3008D03E0 /* DWOAvatarImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOAvatarImageView.h; sourceTree = "<group>"; };
+		03A06C2F18A8B0D3008D03E0 /* DWOAvatarImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOAvatarImageView.m; sourceTree = "<group>"; };
+		03A06C3018A8B0D3008D03E0 /* DWOContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOContactCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06C3118A8B0D3008D03E0 /* DWOContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOContactCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06C3218A8B0D3008D03E0 /* DWOContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWOContactCell.xib; sourceTree = "<group>"; };
+		03A06C3318A8B0D3008D03E0 /* DWONearbyContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWONearbyContactCell.h; sourceTree = "<group>"; };
+		03A06C3418A8B0D3008D03E0 /* DWONearbyContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWONearbyContactCell.m; sourceTree = "<group>"; };
+		03A06C3518A8B0D3008D03E0 /* DWONearbyContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWONearbyContactCell.xib; sourceTree = "<group>"; };
+		03A06C3618A8B0D3008D03E0 /* DWOTransactionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOTransactionCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03A06C3718A8B0D3008D03E0 /* DWOTransactionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOTransactionCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03A06C5018A8B155008D03E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03A06C5218A8B16A008D03E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		03A06C5418A8B202008D03E0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		03A06C5618A8B20D008D03E0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		03A06C5818A8B217008D03E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		03A06C5A18A8B69B008D03E0 /* DWOAppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOAppConstants.h; sourceTree = "<group>"; };
+		03A06C5B18A8B69B008D03E0 /* DWOAppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOAppConstants.m; sourceTree = "<group>"; };
+		03A9681C18AB65DF006ADFF8 /* DWODestination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWODestination.h; sourceTree = "<group>"; };
+		03A9681D18AB65DF006ADFF8 /* DWODestination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWODestination.m; sourceTree = "<group>"; };
+		03A9681F18AC61BA006ADFF8 /* DWOContactSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOContactSearchRequest.h; sourceTree = "<group>"; };
+		03A9682018AC61BA006ADFF8 /* DWOContactSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOContactSearchRequest.m; sourceTree = "<group>"; };
+		03C2F3F618B3216D008557C1 /* DWOTransactionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWOTransactionCell.xib; sourceTree = "<group>"; };
+		03C2F3FA18B462B5008557C1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		03D3542018A98CD8007A4C25 /* libdwolla-ios-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libdwolla-ios-sdk.a"; path = "../dwolla-ios-sdk/build/Debug-iphoneos/libdwolla-ios-sdk.a"; sourceTree = "<group>"; };
+		03E2EC3818C23D2000ECE6AD /* DWOTransactionsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOTransactionsRequest.h; sourceTree = "<group>"; };
+		03E2EC3918C23D2000ECE6AD /* DWOTransactionsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOTransactionsRequest.m; sourceTree = "<group>"; };
+		03E2EC3B18C2648000ECE6AD /* NSError+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Dwolla.h"; sourceTree = "<group>"; };
+		03E2EC3C18C2648000ECE6AD /* NSError+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Dwolla.m"; sourceTree = "<group>"; };
+		03EA6AA518A5A8A600C6F257 /* DwollaMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DwollaMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EA6AA818A5A8A600C6F257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03EA6AAA18A5A8A600C6F257 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03EA6AAC18A5A8A600C6F257 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03EA6AB018A5A8A600C6F257 /* DwollaMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DwollaMe-Info.plist"; sourceTree = "<group>"; };
+		03EA6AB218A5A8A600C6F257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03EA6AB418A5A8A600C6F257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03EA6AB618A5A8A600C6F257 /* DwollaMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DwollaMe-Prefix.pch"; sourceTree = "<group>"; };
+		03EA6AB718A5A8A600C6F257 /* DWOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWOAppDelegate.h; sourceTree = "<group>"; };
+		03EA6AB818A5A8A600C6F257 /* DWOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWOAppDelegate.m; sourceTree = "<group>"; };
+		03EA6AC618A5A8A600C6F257 /* DwollaMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DwollaMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EA6AC718A5A8A600C6F257 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03EA6ACF18A5A8A600C6F257 /* DwollaMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DwollaMeTests-Info.plist"; sourceTree = "<group>"; };
+		03EA6AD118A5A8A600C6F257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03EA6B5018A5D8AD00C6F257 /* libdwolla-ios-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libdwolla-ios-sdk.a"; path = "../dwolla-ios-sdk/build/Debug-iphoneos/libdwolla-ios-sdk.a"; sourceTree = "<group>"; };
+		03FD092718CFB3E700690B83 /* DWOIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOIntroViewController.h; sourceTree = "<group>"; };
+		03FD092818CFB3E700690B83 /* DWOIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOIntroViewController.m; sourceTree = "<group>"; };
+		5712BA2860B94BF583860CFA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EA6AA218A5A8A600C6F257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C2F3FB18B462B5008557C1 /* MapKit.framework in Frameworks */,
+				03A06C5918A8B217008D03E0 /* CoreLocation.framework in Frameworks */,
+				03A06C5718A8B20D008D03E0 /* Social.framework in Frameworks */,
+				03A06C5518A8B202008D03E0 /* libz.dylib in Frameworks */,
+				03EA6AAB18A5A8A600C6F257 /* CoreGraphics.framework in Frameworks */,
+				03EA6AAD18A5A8A600C6F257 /* UIKit.framework in Frameworks */,
+				03EA6AA918A5A8A600C6F257 /* Foundation.framework in Frameworks */,
+				1B45A954EB15499D9B59CC98 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EA6AC318A5A8A600C6F257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EA6AC818A5A8A600C6F257 /* XCTest.framework in Frameworks */,
+				03EA6ACA18A5A8A600C6F257 /* UIKit.framework in Frameworks */,
+				03EA6AC918A5A8A600C6F257 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032D66F018EA1AAC002CF2D5 /* Funds */ = {
+			isa = PBXGroup;
+			children = (
+				032D66F218EA1AE9002CF2D5 /* DWOBalanceFundStrategy.h */,
+				032D66F318EA1AE9002CF2D5 /* DWOBalanceFundStrategy.m */,
+				032D66F418EA1AE9002CF2D5 /* DWODepositToBalanceFundStrategy.h */,
+				032D66F518EA1AE9002CF2D5 /* DWODepositToBalanceFundStrategy.m */,
+				032D66F618EA1AE9002CF2D5 /* DWOFundStrategy.h */,
+				032D66F718EA1AE9002CF2D5 /* DWOWithdrawFromBalanceFundStategy.h */,
+				032D66F818EA1AE9002CF2D5 /* DWOWithdrawFromBalanceFundStategy.m */,
+			);
+			path = Funds;
+			sourceTree = "<group>";
+		};
+		032D66F118EA1AB3002CF2D5 /* Transfers */ = {
+			isa = PBXGroup;
+			children = (
+				032D670318EA1D1A002CF2D5 /* DWOFulfillMoneyRequestStategy.h */,
+				032D670418EA1D1A002CF2D5 /* DWOFulfillMoneyRequestStategy.m */,
+				032D670018EA1D05002CF2D5 /* DWOSendStrategy.h */,
+				032D670118EA1D05002CF2D5 /* DWOSendStrategy.m */,
+				032D66FC18EA1BCF002CF2D5 /* DWOTransferStrategy.h */,
+			);
+			path = Transfers;
+			sourceTree = "<group>";
+		};
+		032DF3B018E396D5009A37DD /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				032DF3C218E3985D009A37DD /* DWOContactsDataSource.h */,
+				032DF3C318E3985D009A37DD /* DWOContactsDataSource.m */,
+				032DF3D118E398A8009A37DD /* DWOFundingSourcesPicker.h */,
+				032DF3D218E398A8009A37DD /* DWOFundingSourcesPicker.m */,
+				032DF3CA18E3985D009A37DD /* DWOMoneyRequestsDataSource.h */,
+				032DF3CB18E3985D009A37DD /* DWOMoneyRequestsDataSource.m */,
+				032DF3C418E3985D009A37DD /* DWONearbyContactsDataSource.h */,
+				032DF3C518E3985D009A37DD /* DWONearbyContactsDataSource.m */,
+				032DF3C618E3985D009A37DD /* DWONearbyContactsMapViewDataSource.h */,
+				032DF3C718E3985D009A37DD /* DWONearbyContactsMapViewDataSource.m */,
+				032DF3C818E3985D009A37DD /* DWONearbyContactsTableViewDataSource.h */,
+				032DF3C918E3985D009A37DD /* DWONearbyContactsTableViewDataSource.m */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		032DF3B118E397D9009A37DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				032DF3B218E39821009A37DD /* DWONearbyContactAnnotation.h */,
+				032DF3B318E39821009A37DD /* DWONearbyContactAnnotation.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		0339856C18D67491005820AC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				03A06BB718A8B085008D03E0 /* DWOTransactionConverter.h */,
+				03A06BB818A8B085008D03E0 /* DWOTransactionConverter.m */,
+				0339856D18D674AE005820AC /* DWODateFormatter.h */,
+				0339856E18D674AE005820AC /* DWODateFormatter.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0339857918D9573F005820AC /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				03A06BA918A8B085008D03E0 /* DWOContactsClient.h */,
+				03A06BAA18A8B085008D03E0 /* DWOContactsClient.m */,
+				03A06BAF18A8B085008D03E0 /* DWOFundingSourcesClient.h */,
+				03A06BB018A8B085008D03E0 /* DWOFundingSourcesClient.m */,
+				03A06BB118A8B085008D03E0 /* DWOMoneyRequestsClient.h */,
+				03A06BB218A8B085008D03E0 /* DWOMoneyRequestsClient.m */,
+				03A06BAB18A8B085008D03E0 /* DWORestClient.h */,
+				03A06BAC18A8B085008D03E0 /* DWORestClient.m */,
+				03A06BB318A8B085008D03E0 /* DWOTransactionsClient.h */,
+				03A06BB418A8B085008D03E0 /* DWOTransactionsClient.m */,
+				03A06BB518A8B085008D03E0 /* DWOUsersClient.h */,
+				03A06BB618A8B085008D03E0 /* DWOUsersClient.m */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		0339857A18D9574E005820AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03A06BAD18A8B085008D03E0 /* DWOCredentials.h */,
+				03A06BAE18A8B085008D03E0 /* DWOCredentials.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0361839E18D961E200473EBC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				032D66F118EA1AB3002CF2D5 /* Transfers */,
+				032D66F018EA1AAC002CF2D5 /* Funds */,
+				032DF3B018E396D5009A37DD /* DataSources */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		03A06B6918A8AE40008D03E0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				03A06C5A18A8B69B008D03E0 /* DWOAppConstants.h */,
+				03A06C5B18A8B69B008D03E0 /* DWOAppConstants.m */,
+				03A06B8E18A8B037008D03E0 /* DWOErrorConstants.h */,
+				03A06B8F18A8B037008D03E0 /* DWOErrorConstants.m */,
+				03A06B8A18A8B037008D03E0 /* DWONotificationConstants.h */,
+				03A06B8B18A8B037008D03E0 /* DWONotificationConstants.m */,
+				03A06B8818A8B037008D03E0 /* DWORestApiConstants.h */,
+				03A06B8918A8B037008D03E0 /* DWORestApiConstants.m */,
+				03A06B8C18A8B037008D03E0 /* DWOSegueConstants.h */,
+				03A06B8D18A8B037008D03E0 /* DWOSegueConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		03A06B6A18A8AE79008D03E0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				032D670618EA242A002CF2D5 /* DWOContact+Dwolla.h */,
+				032D670718EA242A002CF2D5 /* DWOContact+Dwolla.m */,
+				036936DC18CE562A007A78A7 /* DWOFundingSource+Dwolla.h */,
+				036936DD18CE562A007A78A7 /* DWOFundingSource+Dwolla.m */,
+				032D670C18EA262B002CF2D5 /* DWOMoneyRequest+Dwolla.h */,
+				032D670D18EA262B002CF2D5 /* DWOMoneyRequest+Dwolla.m */,
+				032D670918EA244A002CF2D5 /* DWONearbyContact+Dwolla.h */,
+				032D670A18EA244A002CF2D5 /* DWONearbyContact+Dwolla.m */,
+				03A06B9418A8B06A008D03E0 /* DWOTransaction+Display.h */,
+				03A06B9518A8B06A008D03E0 /* DWOTransaction+Display.m */,
+				0339857018D9028E005820AC /* DWOTransaction+Dwolla.h */,
+				0339857118D9028E005820AC /* DWOTransaction+Dwolla.m */,
+				032DF3D718E39E9E009A37DD /* DWOTransactionCell+DWOMoneyRequest.h */,
+				032DF3D818E39E9E009A37DD /* DWOTransactionCell+DWOMoneyRequest.m */,
+				032DF3D418E39A1B009A37DD /* DWOTransactionCell+DWOTransaction.h */,
+				032DF3D518E39A1B009A37DD /* DWOTransactionCell+DWOTransaction.m */,
+				03A06B9618A8B06A008D03E0 /* NSDate+Dwolla.h */,
+				03A06B9718A8B06A008D03E0 /* NSDate+Dwolla.m */,
+				03E2EC3B18C2648000ECE6AD /* NSError+Dwolla.h */,
+				03E2EC3C18C2648000ECE6AD /* NSError+Dwolla.m */,
+				03A06B9818A8B06A008D03E0 /* NSNumber+Dwolla.h */,
+				03A06B9918A8B06A008D03E0 /* NSNumber+Dwolla.m */,
+				0339857B18D95889005820AC /* NSObject+NSNull.h */,
+				0339857C18D95889005820AC /* NSObject+NSNull.m */,
+				0385AD0F18C6B01A0031731D /* NSString+Dwolla.h */,
+				0385AD1018C6B01A0031731D /* NSString+Dwolla.m */,
+				036183A518DF5A3100473EBC /* NSString+DWOTransaction.h */,
+				036183A618DF5A3100473EBC /* NSString+DWOTransaction.m */,
+				03A06B9A18A8B06A008D03E0 /* NSString+URLEncoding.h */,
+				03A06B9B18A8B06A008D03E0 /* NSString+URLEncoding.m */,
+				03A06B9C18A8B06A008D03E0 /* UIColor+Dwolla.h */,
+				03A06B9D18A8B06A008D03E0 /* UIColor+Dwolla.m */,
+				03A06B9E18A8B06A008D03E0 /* UIImage+ImageEffects.h */,
+				03A06B9F18A8B06A008D03E0 /* UIImage+ImageEffects.m */,
+				03A06BA018A8B06A008D03E0 /* UIView+ImageEffects.h */,
+				03A06BA118A8B06A008D03E0 /* UIView+ImageEffects.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		03A06B6B18A8AF50008D03E0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				03A06C5018A8B155008D03E0 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		03A06B6C18A8AF75008D03E0 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				0339857A18D9574E005820AC /* Models */,
+				0339857918D9573F005820AC /* Clients */,
+				0339856C18D67491005820AC /* Utilities */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		03A06B6D18A8AF94008D03E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				036183B218E1280400473EBC /* DWOAccount.h */,
+				036183B318E1280400473EBC /* DWOAccount.m */,
+				03A06BC118A8B0A2008D03E0 /* DWOBoolSearchOption.h */,
+				03A06BC218A8B0A2008D03E0 /* DWOBoolSearchOption.m */,
+				03A06BC318A8B0A2008D03E0 /* DWOContact.h */,
+				03A06BC418A8B0A2008D03E0 /* DWOContact.m */,
+				03A9681F18AC61BA006ADFF8 /* DWOContactSearchRequest.h */,
+				03A9682018AC61BA006ADFF8 /* DWOContactSearchRequest.m */,
+				03A9681C18AB65DF006ADFF8 /* DWODestination.h */,
+				03A9681D18AB65DF006ADFF8 /* DWODestination.m */,
+				0339857318D94756005820AC /* DWOFulfillMoneyRequest.h */,
+				0339857418D94756005820AC /* DWOFulfillMoneyRequest.m */,
+				0339857618D94779005820AC /* DWOFulfillResponse.h */,
+				0339857718D94779005820AC /* DWOFulfillResponse.m */,
+				03A06BC518A8B0A2008D03E0 /* DWOFundingSource.h */,
+				03A06BC618A8B0A2008D03E0 /* DWOFundingSource.m */,
+				03A06BE118A8B0A2008D03E0 /* DWOFundRequest.h */,
+				03A06BE218A8B0A2008D03E0 /* DWOFundRequest.m */,
+				03A06BC918A8B0A2008D03E0 /* DWOMoneyRequest.h */,
+				03A06BCA18A8B0A2008D03E0 /* DWOMoneyRequest.m */,
+				036183B818E12EDB00473EBC /* DWOMoneyRequestFee.h */,
+				036183B918E12EDB00473EBC /* DWOMoneyRequestFee.m */,
+				03A06BEA18A8B0A2008D03E0 /* DWOMoneyRequestsRequest.h */,
+				03A06BEB18A8B0A2008D03E0 /* DWOMoneyRequestsRequest.m */,
+				03A06BC718A8B0A2008D03E0 /* DWONearbyContact.h */,
+				03A06BC818A8B0A2008D03E0 /* DWONearbyContact.m */,
+				03A06BDF18A8B0A2008D03E0 /* DWONearbyContactsRequest.h */,
+				03A06BE018A8B0A2008D03E0 /* DWONearbyContactsRequest.m */,
+				036183AB18DF5C1D00473EBC /* DWORequest.h */,
+				036183AC18DF5C1D00473EBC /* DWORequest.m */,
+				036183A818DF5BD200473EBC /* DWORequestResponse.h */,
+				036183A918DF5BD200473EBC /* DWORequestResponse.m */,
+				03A06BCB18A8B0A2008D03E0 /* DWOSendRequest.h */,
+				03A06BCC18A8B0A2008D03E0 /* DWOSendRequest.m */,
+				03A06BCD18A8B0A2008D03E0 /* DWOSendResponse.h */,
+				03A06BCE18A8B0A2008D03E0 /* DWOSendResponse.m */,
+				03A06BCF18A8B0A2008D03E0 /* DWOTransaction.h */,
+				03A06BD018A8B0A2008D03E0 /* DWOTransaction.m */,
+				03A06BD118A8B0A2008D03E0 /* DWOTransactionFee.h */,
+				03A06BD218A8B0A2008D03E0 /* DWOTransactionFee.m */,
+				03E2EC3818C23D2000ECE6AD /* DWOTransactionsRequest.h */,
+				03E2EC3918C23D2000ECE6AD /* DWOTransactionsRequest.m */,
+				032D66ED18E65C52002CF2D5 /* DWOUser.h */,
+				032D66EE18E65C52002CF2D5 /* DWOUser.m */,
+				03A06BD518A8B0A2008D03E0 /* DWOUserSearchFilterOption.h */,
+				03A06BD618A8B0A2008D03E0 /* DWOUserSearchFilterOption.m */,
+				03A06BD718A8B0A2008D03E0 /* DWOUserSearchFilterOptions.h */,
+				03A06BD818A8B0A2008D03E0 /* DWOUserSearchFilterOptions.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03A06B6E18A8AFAE008D03E0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				03A06C0118A8B0B3008D03E0 /* DWOActivityViewController.h */,
+				03A06C0218A8B0B3008D03E0 /* DWOActivityViewController.m */,
+				03A06C0318A8B0B3008D03E0 /* DWOConfirmSendViewController.h */,
+				03A06C0418A8B0B3008D03E0 /* DWOConfirmSendViewController.m */,
+				03A06C0918A8B0B3008D03E0 /* DWOFundingSourcesViewController.h */,
+				03A06C0A18A8B0B3008D03E0 /* DWOFundingSourcesViewController.m */,
+				03A06C1D18A8B0B3008D03E0 /* DWOFundViewController.h */,
+				03A06C1E18A8B0B3008D03E0 /* DWOFundViewController.m */,
+				03FD092718CFB3E700690B83 /* DWOIntroViewController.h */,
+				03FD092818CFB3E700690B83 /* DWOIntroViewController.m */,
+				03A06C0B18A8B0B3008D03E0 /* DWOMainViewController.h */,
+				03A06C0C18A8B0B3008D03E0 /* DWOMainViewController.m */,
+				03A06C1718A8B0B3008D03E0 /* DWOMeViewController.h */,
+				03A06C1818A8B0B3008D03E0 /* DWOMeViewController.m */,
+				03A06C0D18A8B0B3008D03E0 /* DWOOAuthViewController.h */,
+				03A06C0E18A8B0B3008D03E0 /* DWOOAuthViewController.m */,
+				036183A218DE90DF00473EBC /* DWORequestsViewController.h */,
+				036183A318DE90DF00473EBC /* DWORequestsViewController.m */,
+				036183BE18E148EA00473EBC /* DWORequestViewController.h */,
+				036183BF18E148EA00473EBC /* DWORequestViewController.m */,
+				03A06C1118A8B0B3008D03E0 /* DWOSearchFilterViewController.h */,
+				03A06C1218A8B0B3008D03E0 /* DWOSearchFilterViewController.m */,
+				03A06C1318A8B0B3008D03E0 /* DWOSearchViewController.h */,
+				03A06C1418A8B0B3008D03E0 /* DWOSearchViewController.m */,
+				03A06C1918A8B0B3008D03E0 /* DWOTransactionFilterViewController.h */,
+				03A06C1A18A8B0B3008D03E0 /* DWOTransactionFilterViewController.m */,
+				03A06C1B18A8B0B3008D03E0 /* DWOTransactionViewController.h */,
+				03A06C1C18A8B0B3008D03E0 /* DWOTransactionViewController.m */,
+				037DB66218C3AD2000C037D8 /* DWOTransferViewController.h */,
+				037DB66318C3AD2000C037D8 /* DWOTransferViewController.m */,
+				03A06C0518A8B0B3008D03E0 /* DWOWebViewController.h */,
+				03A06C0618A8B0B3008D03E0 /* DWOWebViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		03A06B6F18A8AFC3008D03E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03A06C2E18A8B0D3008D03E0 /* DWOAvatarImageView.h */,
+				03A06C2F18A8B0D3008D03E0 /* DWOAvatarImageView.m */,
+				036936D518CA9D69007A78A7 /* DWOBalancedSourceCell.h */,
+				036936D618CA9D69007A78A7 /* DWOBalancedSourceCell.m */,
+				03A06C3018A8B0D3008D03E0 /* DWOContactCell.h */,
+				03A06C3118A8B0D3008D03E0 /* DWOContactCell.m */,
+				03A06C3218A8B0D3008D03E0 /* DWOContactCell.xib */,
+				03A06C3318A8B0D3008D03E0 /* DWONearbyContactCell.h */,
+				03A06C3418A8B0D3008D03E0 /* DWONearbyContactCell.m */,
+				03A06C3518A8B0D3008D03E0 /* DWONearbyContactCell.xib */,
+				033AACF818C56AC900C7D6CC /* DWOPaddedLabel.h */,
+				033AACF918C56AC900C7D6CC /* DWOPaddedLabel.m */,
+				036183AE18E1013300473EBC /* DWORequestCell.h */,
+				036183AF18E1013300473EBC /* DWORequestCell.m */,
+				037DB66518C3C9EA00C037D8 /* DWOSendToolbar.h */,
+				037DB66618C3C9EA00C037D8 /* DWOSendToolbar.m */,
+				03A06C3618A8B0D3008D03E0 /* DWOTransactionCell.h */,
+				03A06C3718A8B0D3008D03E0 /* DWOTransactionCell.m */,
+				03C2F3F618B3216D008557C1 /* DWOTransactionCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03EA6A9C18A5A8A600C6F257 = {
+			isa = PBXGroup;
+			children = (
+				03EA6AAE18A5A8A600C6F257 /* DwollaMe */,
+				03EA6ACD18A5A8A600C6F257 /* DwollaMeTests */,
+				03EA6AA718A5A8A600C6F257 /* Frameworks */,
+				03EA6AA618A5A8A600C6F257 /* Products */,
+				5712BA2860B94BF583860CFA /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		03EA6AA618A5A8A600C6F257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03EA6AA518A5A8A600C6F257 /* DwollaMe.app */,
+				03EA6AC618A5A8A600C6F257 /* DwollaMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03EA6AA718A5A8A600C6F257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C2F3FA18B462B5008557C1 /* MapKit.framework */,
+				03D3542018A98CD8007A4C25 /* libdwolla-ios-sdk.a */,
+				03A06C5818A8B217008D03E0 /* CoreLocation.framework */,
+				03A06C5618A8B20D008D03E0 /* Social.framework */,
+				03A06C5418A8B202008D03E0 /* libz.dylib */,
+				03EA6B5018A5D8AD00C6F257 /* libdwolla-ios-sdk.a */,
+				03EA6AA818A5A8A600C6F257 /* Foundation.framework */,
+				03EA6AAA18A5A8A600C6F257 /* CoreGraphics.framework */,
+				03EA6AAC18A5A8A600C6F257 /* UIKit.framework */,
+				03EA6AC718A5A8A600C6F257 /* XCTest.framework */,
+				01D547937D4249E884DC4468 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03EA6AAE18A5A8A600C6F257 /* DwollaMe */ = {
+			isa = PBXGroup;
+			children = (
+				03A06B6B18A8AF50008D03E0 /* Assets */,
+				03A06B6A18A8AE79008D03E0 /* Categories */,
+				03A06B6918A8AE40008D03E0 /* Constants */,
+				03A06B6C18A8AF75008D03E0 /* DataAccess */,
+				0361839E18D961E200473EBC /* Lib */,
+				03A06C5218A8B16A008D03E0 /* Main.storyboard */,
+				03A06B6D18A8AF94008D03E0 /* Models */,
+				03EA6AAF18A5A8A600C6F257 /* Supporting Files */,
+				03A06B6E18A8AFAE008D03E0 /* ViewControllers */,
+				032DF3B118E397D9009A37DD /* ViewModels */,
+				03A06B6F18A8AFC3008D03E0 /* Views */,
+			);
+			path = DwollaMe;
+			sourceTree = "<group>";
+		};
+		03EA6AAF18A5A8A600C6F257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03EA6AB718A5A8A600C6F257 /* DWOAppDelegate.h */,
+				03EA6AB818A5A8A600C6F257 /* DWOAppDelegate.m */,
+				03EA6AB018A5A8A600C6F257 /* DwollaMe-Info.plist */,
+				03EA6AB618A5A8A600C6F257 /* DwollaMe-Prefix.pch */,
+				03EA6AB118A5A8A600C6F257 /* InfoPlist.strings */,
+				03EA6AB418A5A8A600C6F257 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03EA6ACD18A5A8A600C6F257 /* DwollaMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				03EA6ACE18A5A8A600C6F257 /* Supporting Files */,
+			);
+			path = DwollaMeTests;
+			sourceTree = "<group>";
+		};
+		03EA6ACE18A5A8A600C6F257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03EA6ACF18A5A8A600C6F257 /* DwollaMeTests-Info.plist */,
+				03EA6AD018A5A8A600C6F257 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EA6AA418A5A8A600C6F257 /* DwollaMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EA6AD718A5A8A600C6F257 /* Build configuration list for PBXNativeTarget "DwollaMe" */;
+			buildPhases = (
+				F7421BE76C624E40948F87B7 /* Check Pods Manifest.lock */,
+				03EA6AA118A5A8A600C6F257 /* Sources */,
+				03EA6AA218A5A8A600C6F257 /* Frameworks */,
+				03EA6AA318A5A8A600C6F257 /* Resources */,
+				0DEB39FB28DE4E60B9AB2E4C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DwollaMe;
+			productName = DwollaMe;
+			productReference = 03EA6AA518A5A8A600C6F257 /* DwollaMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03EA6AC518A5A8A600C6F257 /* DwollaMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EA6ADA18A5A8A600C6F257 /* Build configuration list for PBXNativeTarget "DwollaMeTests" */;
+			buildPhases = (
+				03EA6AC218A5A8A600C6F257 /* Sources */,
+				03EA6AC318A5A8A600C6F257 /* Frameworks */,
+				03EA6AC418A5A8A600C6F257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03EA6ACC18A5A8A600C6F257 /* PBXTargetDependency */,
+			);
+			name = DwollaMeTests;
+			productName = DwollaMeTests;
+			productReference = 03EA6AC618A5A8A600C6F257 /* DwollaMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03EA6A9D18A5A8A600C6F257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DWO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Dwolla;
+				TargetAttributes = {
+					03EA6AC518A5A8A600C6F257 = {
+						TestTargetID = 03EA6AA418A5A8A600C6F257;
+					};
+				};
+			};
+			buildConfigurationList = 03EA6AA018A5A8A600C6F257 /* Build configuration list for PBXProject "DwollaMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03EA6A9C18A5A8A600C6F257;
+			productRefGroup = 03EA6AA618A5A8A600C6F257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EA6AA418A5A8A600C6F257 /* DwollaMe */,
+				03EA6AC518A5A8A600C6F257 /* DwollaMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03EA6AA318A5A8A600C6F257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A06C3A18A8B0D3008D03E0 /* DWOContactCell.xib in Resources */,
+				03A06C5318A8B16A008D03E0 /* Main.storyboard in Resources */,
+				03C2F3F718B3216D008557C1 /* DWOTransactionCell.xib in Resources */,
+				03A06C5118A8B155008D03E0 /* Images.xcassets in Resources */,
+				03EA6AB318A5A8A600C6F257 /* InfoPlist.strings in Resources */,
+				03A06C3C18A8B0D3008D03E0 /* DWONearbyContactCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EA6AC418A5A8A600C6F257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EA6AD218A5A8A600C6F257 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DEB39FB28DE4E60B9AB2E4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7421BE76C624E40948F87B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EA6AA118A5A8A600C6F257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A06BB918A8B085008D03E0 /* DWOContactsClient.m in Sources */,
+				03A06BF118A8B0A2008D03E0 /* DWOSendRequest.m in Sources */,
+				03A06C2A18A8B0B3008D03E0 /* DWOMeViewController.m in Sources */,
+				032DF3D018E3985D009A37DD /* DWOMoneyRequestsDataSource.m in Sources */,
+				03A06C3B18A8B0D3008D03E0 /* DWONearbyContactCell.m in Sources */,
+				032D66FA18EA1AE9002CF2D5 /* DWODepositToBalanceFundStrategy.m in Sources */,
+				03A06BFC18A8B0A2008D03E0 /* DWOFundRequest.m in Sources */,
+				03A06BBD18A8B085008D03E0 /* DWOMoneyRequestsClient.m in Sources */,
+				03A06BBA18A8B085008D03E0 /* DWORestClient.m in Sources */,
+				0339857518D94756005820AC /* DWOFulfillMoneyRequest.m in Sources */,
+				036936D718CA9D69007A78A7 /* DWOBalancedSourceCell.m in Sources */,
+				032D66FB18EA1AE9002CF2D5 /* DWOWithdrawFromBalanceFundStategy.m in Sources */,
+				03A06C2B18A8B0B3008D03E0 /* DWOTransactionFilterViewController.m in Sources */,
+				036183AD18DF5C1D00473EBC /* DWORequest.m in Sources */,
+				03A06C2518A8B0B3008D03E0 /* DWOOAuthViewController.m in Sources */,
+				03A06C2318A8B0B3008D03E0 /* DWOFundingSourcesViewController.m in Sources */,
+				036183A718DF5A3100473EBC /* NSString+DWOTransaction.m in Sources */,
+				032DF3CC18E3985D009A37DD /* DWOContactsDataSource.m in Sources */,
+				03A06BEE18A8B0A2008D03E0 /* DWOFundingSource.m in Sources */,
+				032D670518EA1D1A002CF2D5 /* DWOFulfillMoneyRequestStategy.m in Sources */,
+				032DF3D318E398A8009A37DD /* DWOFundingSourcesPicker.m in Sources */,
+				03A06BF718A8B0A2008D03E0 /* DWOUserSearchFilterOptions.m in Sources */,
+				03A06BC018A8B085008D03E0 /* DWOTransactionConverter.m in Sources */,
+				036183AA18DF5BD200473EBC /* DWORequestResponse.m in Sources */,
+				032D670E18EA262B002CF2D5 /* DWOMoneyRequest+Dwolla.m in Sources */,
+				03A06C1F18A8B0B3008D03E0 /* DWOActivityViewController.m in Sources */,
+				03A06C2D18A8B0B3008D03E0 /* DWOFundViewController.m in Sources */,
+				03A06BA518A8B06A008D03E0 /* NSString+URLEncoding.m in Sources */,
+				032D670B18EA244A002CF2D5 /* DWONearbyContact+Dwolla.m in Sources */,
+				03A06C3818A8B0D3008D03E0 /* DWOAvatarImageView.m in Sources */,
+				03A06C2818A8B0B3008D03E0 /* DWOSearchViewController.m in Sources */,
+				03A06C3918A8B0D3008D03E0 /* DWOContactCell.m in Sources */,
+				036936DE18CE562A007A78A7 /* DWOFundingSource+Dwolla.m in Sources */,
+				032DF3B418E39821009A37DD /* DWONearbyContactAnnotation.m in Sources */,
+				03A06BF218A8B0A2008D03E0 /* DWOSendResponse.m in Sources */,
+				032DF3CE18E3985D009A37DD /* DWONearbyContactsMapViewDataSource.m in Sources */,
+				03A06C0018A8B0A2008D03E0 /* DWOMoneyRequestsRequest.m in Sources */,
+				03A06BF018A8B0A2008D03E0 /* DWOMoneyRequest.m in Sources */,
+				032D66EF18E65C52002CF2D5 /* DWOUser.m in Sources */,
+				03FD092918CFB3E700690B83 /* DWOIntroViewController.m in Sources */,
+				0339857218D9028E005820AC /* DWOTransaction+Dwolla.m in Sources */,
+				03A06BEC18A8B0A2008D03E0 /* DWOBoolSearchOption.m in Sources */,
+				03A06BA418A8B06A008D03E0 /* NSNumber+Dwolla.m in Sources */,
+				03A06C2418A8B0B3008D03E0 /* DWOMainViewController.m in Sources */,
+				03A06BA818A8B06A008D03E0 /* UIView+ImageEffects.m in Sources */,
+				03A06BED18A8B0A2008D03E0 /* DWOContact.m in Sources */,
+				03A06C2C18A8B0B3008D03E0 /* DWOTransactionViewController.m in Sources */,
+				0385AD1118C6B01A0031731D /* NSString+Dwolla.m in Sources */,
+				03A06BBF18A8B085008D03E0 /* DWOUsersClient.m in Sources */,
+				036183C018E148EA00473EBC /* DWORequestViewController.m in Sources */,
+				03A06C5C18A8B69B008D03E0 /* DWOAppConstants.m in Sources */,
+				036183B018E1013300473EBC /* DWORequestCell.m in Sources */,
+				03A06BBB18A8B085008D03E0 /* DWOCredentials.m in Sources */,
+				0339857D18D95889005820AC /* NSObject+NSNull.m in Sources */,
+				037DB66718C3C9EA00C037D8 /* DWOSendToolbar.m in Sources */,
+				036183B418E1280400473EBC /* DWOAccount.m in Sources */,
+				03EA6AB518A5A8A600C6F257 /* main.m in Sources */,
+				03A06BFB18A8B0A2008D03E0 /* DWONearbyContactsRequest.m in Sources */,
+				037DB66418C3AD2000C037D8 /* DWOTransferViewController.m in Sources */,
+				03E2EC3A18C23D2000ECE6AD /* DWOTransactionsRequest.m in Sources */,
+				03A06C2118A8B0B3008D03E0 /* DWOWebViewController.m in Sources */,
+				03A06BA618A8B06A008D03E0 /* UIColor+Dwolla.m in Sources */,
+				03A9682118AC61BA006ADFF8 /* DWOContactSearchRequest.m in Sources */,
+				036183A418DE90DF00473EBC /* DWORequestsViewController.m in Sources */,
+				0339857818D94779005820AC /* DWOFulfillResponse.m in Sources */,
+				03A06B9218A8B037008D03E0 /* DWOSegueConstants.m in Sources */,
+				03EA6AB918A5A8A600C6F257 /* DWOAppDelegate.m in Sources */,
+				03A06BA218A8B06A008D03E0 /* DWOTransaction+Display.m in Sources */,
+				032D66F918EA1AE9002CF2D5 /* DWOBalanceFundStrategy.m in Sources */,
+				03E2EC3D18C2648000ECE6AD /* NSError+Dwolla.m in Sources */,
+				032D670218EA1D05002CF2D5 /* DWOSendStrategy.m in Sources */,
+				03A06BF618A8B0A2008D03E0 /* DWOUserSearchFilterOption.m in Sources */,
+				033AACFA18C56AC900C7D6CC /* DWOPaddedLabel.m in Sources */,
+				03A06C2718A8B0B3008D03E0 /* DWOSearchFilterViewController.m in Sources */,
+				03A06B9318A8B037008D03E0 /* DWOErrorConstants.m in Sources */,
+				032DF3D918E39E9E009A37DD /* DWOTransactionCell+DWOMoneyRequest.m in Sources */,
+				03A06BA718A8B06A008D03E0 /* UIImage+ImageEffects.m in Sources */,
+				03A06C2018A8B0B3008D03E0 /* DWOConfirmSendViewController.m in Sources */,
+				03A06BF418A8B0A2008D03E0 /* DWOTransactionFee.m in Sources */,
+				032DF3CD18E3985D009A37DD /* DWONearbyContactsDataSource.m in Sources */,
+				03A06BEF18A8B0A2008D03E0 /* DWONearbyContact.m in Sources */,
+				032DF3CF18E3985D009A37DD /* DWONearbyContactsTableViewDataSource.m in Sources */,
+				03A06B9018A8B037008D03E0 /* DWORestApiConstants.m in Sources */,
+				032DF3D618E39A1B009A37DD /* DWOTransactionCell+DWOTransaction.m in Sources */,
+				03A06B9118A8B037008D03E0 /* DWONotificationConstants.m in Sources */,
+				03A06C3D18A8B0D3008D03E0 /* DWOTransactionCell.m in Sources */,
+				03A9681E18AB65DF006ADFF8 /* DWODestination.m in Sources */,
+				0339856F18D674AE005820AC /* DWODateFormatter.m in Sources */,
+				03A06BA318A8B06A008D03E0 /* NSDate+Dwolla.m in Sources */,
+				03A06BF318A8B0A2008D03E0 /* DWOTransaction.m in Sources */,
+				03A06BBC18A8B085008D03E0 /* DWOFundingSourcesClient.m in Sources */,
+				036183BA18E12EDB00473EBC /* DWOMoneyRequestFee.m in Sources */,
+				032D670818EA242A002CF2D5 /* DWOContact+Dwolla.m in Sources */,
+				03A06BBE18A8B085008D03E0 /* DWOTransactionsClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EA6AC218A5A8A600C6F257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03EA6ACC18A5A8A600C6F257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03EA6AA418A5A8A600C6F257 /* DwollaMe */;
+			targetProxy = 03EA6ACB18A5A8A600C6F257 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03EA6AB118A5A8A600C6F257 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EA6AB218A5A8A600C6F257 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03EA6AD018A5A8A600C6F257 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EA6AD118A5A8A600C6F257 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03EA6AD518A5A8A600C6F257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03EA6AD618A5A8A600C6F257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03EA6AD818A5A8A600C6F257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5712BA2860B94BF583860CFA /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DwollaMe/DwollaMe-Prefix.pch";
+				INFOPLIST_FILE = "DwollaMe/DwollaMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03EA6AD918A5A8A600C6F257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5712BA2860B94BF583860CFA /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DwollaMe/DwollaMe-Prefix.pch";
+				INFOPLIST_FILE = "DwollaMe/DwollaMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03EA6ADB18A5A8A600C6F257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DwollaMe.app/DwollaMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DwollaMe/DwollaMe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DwollaMeTests/DwollaMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03EA6ADC18A5A8A600C6F257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DwollaMe.app/DwollaMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DwollaMe/DwollaMe-Prefix.pch";
+				INFOPLIST_FILE = "DwollaMeTests/DwollaMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EA6AA018A5A8A600C6F257 /* Build configuration list for PBXProject "DwollaMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EA6AD518A5A8A600C6F257 /* Debug */,
+				03EA6AD618A5A8A600C6F257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EA6AD718A5A8A600C6F257 /* Build configuration list for PBXNativeTarget "DwollaMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EA6AD818A5A8A600C6F257 /* Debug */,
+				03EA6AD918A5A8A600C6F257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EA6ADA18A5A8A600C6F257 /* Build configuration list for PBXNativeTarget "DwollaMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EA6ADB18A5A8A600C6F257 /* Debug */,
+				03EA6ADC18A5A8A600C6F257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03EA6A9D18A5A8A600C6F257 /* Project object */;
+}
