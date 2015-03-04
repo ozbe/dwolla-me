@@ -41,6 +41,14 @@
 		036183C018E148EA00473EBC /* DWORequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036183BF18E148EA00473EBC /* DWORequestViewController.m */; };
 		036936D718CA9D69007A78A7 /* DWOBalancedSourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 036936D618CA9D69007A78A7 /* DWOBalancedSourceCell.m */; };
 		036936DE18CE562A007A78A7 /* DWOFundingSource+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 036936DD18CE562A007A78A7 /* DWOFundingSource+Dwolla.m */; };
+		0379A31E1AA6E06400FF79AC /* DWOCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379A31D1AA6E06400FF79AC /* DWOCredentials.m */; };
+		0379A32B1AA6E07600FF79AC /* DWOContactsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379A3201AA6E07600FF79AC /* DWOContactsClient.m */; };
+		0379A32C1AA6E07600FF79AC /* DWOFundingSourcesClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379A3221AA6E07600FF79AC /* DWOFundingSourcesClient.m */; };
+		0379A32D1AA6E07600FF79AC /* DWOMoneyRequestsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379A3241AA6E07600FF79AC /* DWOMoneyRequestsClient.m */; };
+		0379A32E1AA6E07600FF79AC /* DWORestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379A3261AA6E07600FF79AC /* DWORestClient.m */; };
+		0379A32F1AA6E07600FF79AC /* DWOTransactionsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379A3281AA6E07600FF79AC /* DWOTransactionsClient.m */; };
+		0379A3301AA6E07600FF79AC /* DWOUsersClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379A32A1AA6E07600FF79AC /* DWOUsersClient.m */; };
+		0379A3331AA6E08300FF79AC /* DWOTransactionConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379A3321AA6E08300FF79AC /* DWOTransactionConverter.m */; };
 		037DB66418C3AD2000C037D8 /* DWOTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DB66318C3AD2000C037D8 /* DWOTransferViewController.m */; };
 		037DB66718C3C9EA00C037D8 /* DWOSendToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DB66618C3C9EA00C037D8 /* DWOSendToolbar.m */; };
 		0385AD1118C6B01A0031731D /* NSString+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 0385AD1018C6B01A0031731D /* NSString+Dwolla.m */; };
@@ -55,14 +63,6 @@
 		03A06BA618A8B06A008D03E0 /* UIColor+Dwolla.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B9D18A8B06A008D03E0 /* UIColor+Dwolla.m */; };
 		03A06BA718A8B06A008D03E0 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06B9F18A8B06A008D03E0 /* UIImage+ImageEffects.m */; };
 		03A06BA818A8B06A008D03E0 /* UIView+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BA118A8B06A008D03E0 /* UIView+ImageEffects.m */; };
-		03A06BB918A8B085008D03E0 /* DWOContactsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BAA18A8B085008D03E0 /* DWOContactsClient.m */; };
-		03A06BBA18A8B085008D03E0 /* DWORestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BAC18A8B085008D03E0 /* DWORestClient.m */; };
-		03A06BBB18A8B085008D03E0 /* DWOCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BAE18A8B085008D03E0 /* DWOCredentials.m */; };
-		03A06BBC18A8B085008D03E0 /* DWOFundingSourcesClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BB018A8B085008D03E0 /* DWOFundingSourcesClient.m */; };
-		03A06BBD18A8B085008D03E0 /* DWOMoneyRequestsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BB218A8B085008D03E0 /* DWOMoneyRequestsClient.m */; };
-		03A06BBE18A8B085008D03E0 /* DWOTransactionsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BB418A8B085008D03E0 /* DWOTransactionsClient.m */; };
-		03A06BBF18A8B085008D03E0 /* DWOUsersClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BB618A8B085008D03E0 /* DWOUsersClient.m */; };
-		03A06BC018A8B085008D03E0 /* DWOTransactionConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BB818A8B085008D03E0 /* DWOTransactionConverter.m */; };
 		03A06BEC18A8B0A2008D03E0 /* DWOBoolSearchOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BC218A8B0A2008D03E0 /* DWOBoolSearchOption.m */; };
 		03A06BED18A8B0A2008D03E0 /* DWOContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BC418A8B0A2008D03E0 /* DWOContact.m */; };
 		03A06BEE18A8B0A2008D03E0 /* DWOFundingSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A06BC618A8B0A2008D03E0 /* DWOFundingSource.m */; };
@@ -203,6 +203,22 @@
 		036936D618CA9D69007A78A7 /* DWOBalancedSourceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOBalancedSourceCell.m; sourceTree = "<group>"; };
 		036936DC18CE562A007A78A7 /* DWOFundingSource+Dwolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DWOFundingSource+Dwolla.h"; sourceTree = "<group>"; };
 		036936DD18CE562A007A78A7 /* DWOFundingSource+Dwolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DWOFundingSource+Dwolla.m"; sourceTree = "<group>"; };
+		0379A31C1AA6E06400FF79AC /* DWOCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOCredentials.h; sourceTree = "<group>"; };
+		0379A31D1AA6E06400FF79AC /* DWOCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOCredentials.m; sourceTree = "<group>"; };
+		0379A31F1AA6E07600FF79AC /* DWOContactsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOContactsClient.h; sourceTree = "<group>"; };
+		0379A3201AA6E07600FF79AC /* DWOContactsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOContactsClient.m; sourceTree = "<group>"; };
+		0379A3211AA6E07600FF79AC /* DWOFundingSourcesClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOFundingSourcesClient.h; sourceTree = "<group>"; };
+		0379A3221AA6E07600FF79AC /* DWOFundingSourcesClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOFundingSourcesClient.m; sourceTree = "<group>"; };
+		0379A3231AA6E07600FF79AC /* DWOMoneyRequestsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOMoneyRequestsClient.h; sourceTree = "<group>"; };
+		0379A3241AA6E07600FF79AC /* DWOMoneyRequestsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOMoneyRequestsClient.m; sourceTree = "<group>"; };
+		0379A3251AA6E07600FF79AC /* DWORestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWORestClient.h; sourceTree = "<group>"; };
+		0379A3261AA6E07600FF79AC /* DWORestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWORestClient.m; sourceTree = "<group>"; };
+		0379A3271AA6E07600FF79AC /* DWOTransactionsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOTransactionsClient.h; sourceTree = "<group>"; };
+		0379A3281AA6E07600FF79AC /* DWOTransactionsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOTransactionsClient.m; sourceTree = "<group>"; };
+		0379A3291AA6E07600FF79AC /* DWOUsersClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOUsersClient.h; sourceTree = "<group>"; };
+		0379A32A1AA6E07600FF79AC /* DWOUsersClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOUsersClient.m; sourceTree = "<group>"; };
+		0379A3311AA6E08300FF79AC /* DWOTransactionConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOTransactionConverter.h; sourceTree = "<group>"; };
+		0379A3321AA6E08300FF79AC /* DWOTransactionConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOTransactionConverter.m; sourceTree = "<group>"; };
 		037DB66218C3AD2000C037D8 /* DWOTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOTransferViewController.h; sourceTree = "<group>"; };
 		037DB66318C3AD2000C037D8 /* DWOTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOTransferViewController.m; sourceTree = "<group>"; };
 		037DB66518C3C9EA00C037D8 /* DWOSendToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOSendToolbar.h; sourceTree = "<group>"; };
@@ -231,22 +247,6 @@
 		03A06B9F18A8B06A008D03E0 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		03A06BA018A8B06A008D03E0 /* UIView+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIView+ImageEffects.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		03A06BA118A8B06A008D03E0 /* UIView+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIView+ImageEffects.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		03A06BA918A8B085008D03E0 /* DWOContactsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOContactsClient.h; path = ../DWOContactsClient.h; sourceTree = "<group>"; };
-		03A06BAA18A8B085008D03E0 /* DWOContactsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOContactsClient.m; path = ../DWOContactsClient.m; sourceTree = "<group>"; };
-		03A06BAB18A8B085008D03E0 /* DWORestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWORestClient.h; path = ../DWORestClient.h; sourceTree = "<group>"; };
-		03A06BAC18A8B085008D03E0 /* DWORestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWORestClient.m; path = ../DWORestClient.m; sourceTree = "<group>"; };
-		03A06BAD18A8B085008D03E0 /* DWOCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOCredentials.h; path = ../DWOCredentials.h; sourceTree = "<group>"; };
-		03A06BAE18A8B085008D03E0 /* DWOCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOCredentials.m; path = ../DWOCredentials.m; sourceTree = "<group>"; };
-		03A06BAF18A8B085008D03E0 /* DWOFundingSourcesClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOFundingSourcesClient.h; path = ../DWOFundingSourcesClient.h; sourceTree = "<group>"; };
-		03A06BB018A8B085008D03E0 /* DWOFundingSourcesClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOFundingSourcesClient.m; path = ../DWOFundingSourcesClient.m; sourceTree = "<group>"; };
-		03A06BB118A8B085008D03E0 /* DWOMoneyRequestsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOMoneyRequestsClient.h; path = ../DWOMoneyRequestsClient.h; sourceTree = "<group>"; };
-		03A06BB218A8B085008D03E0 /* DWOMoneyRequestsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOMoneyRequestsClient.m; path = ../DWOMoneyRequestsClient.m; sourceTree = "<group>"; };
-		03A06BB318A8B085008D03E0 /* DWOTransactionsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOTransactionsClient.h; path = ../DWOTransactionsClient.h; sourceTree = "<group>"; };
-		03A06BB418A8B085008D03E0 /* DWOTransactionsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOTransactionsClient.m; path = ../DWOTransactionsClient.m; sourceTree = "<group>"; };
-		03A06BB518A8B085008D03E0 /* DWOUsersClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOUsersClient.h; path = ../DWOUsersClient.h; sourceTree = "<group>"; };
-		03A06BB618A8B085008D03E0 /* DWOUsersClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOUsersClient.m; path = ../DWOUsersClient.m; sourceTree = "<group>"; };
-		03A06BB718A8B085008D03E0 /* DWOTransactionConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWOTransactionConverter.h; path = ../DWOTransactionConverter.h; sourceTree = "<group>"; };
-		03A06BB818A8B085008D03E0 /* DWOTransactionConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWOTransactionConverter.m; path = ../DWOTransactionConverter.m; sourceTree = "<group>"; };
 		03A06BC118A8B0A2008D03E0 /* DWOBoolSearchOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOBoolSearchOption.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		03A06BC218A8B0A2008D03E0 /* DWOBoolSearchOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DWOBoolSearchOption.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		03A06BC318A8B0A2008D03E0 /* DWOContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DWOContact.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -433,8 +433,8 @@
 		0339856C18D67491005820AC /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				03A06BB718A8B085008D03E0 /* DWOTransactionConverter.h */,
-				03A06BB818A8B085008D03E0 /* DWOTransactionConverter.m */,
+				0379A3311AA6E08300FF79AC /* DWOTransactionConverter.h */,
+				0379A3321AA6E08300FF79AC /* DWOTransactionConverter.m */,
 				0339856D18D674AE005820AC /* DWODateFormatter.h */,
 				0339856E18D674AE005820AC /* DWODateFormatter.m */,
 			);
@@ -444,18 +444,18 @@
 		0339857918D9573F005820AC /* Clients */ = {
 			isa = PBXGroup;
 			children = (
-				03A06BA918A8B085008D03E0 /* DWOContactsClient.h */,
-				03A06BAA18A8B085008D03E0 /* DWOContactsClient.m */,
-				03A06BAF18A8B085008D03E0 /* DWOFundingSourcesClient.h */,
-				03A06BB018A8B085008D03E0 /* DWOFundingSourcesClient.m */,
-				03A06BB118A8B085008D03E0 /* DWOMoneyRequestsClient.h */,
-				03A06BB218A8B085008D03E0 /* DWOMoneyRequestsClient.m */,
-				03A06BAB18A8B085008D03E0 /* DWORestClient.h */,
-				03A06BAC18A8B085008D03E0 /* DWORestClient.m */,
-				03A06BB318A8B085008D03E0 /* DWOTransactionsClient.h */,
-				03A06BB418A8B085008D03E0 /* DWOTransactionsClient.m */,
-				03A06BB518A8B085008D03E0 /* DWOUsersClient.h */,
-				03A06BB618A8B085008D03E0 /* DWOUsersClient.m */,
+				0379A31F1AA6E07600FF79AC /* DWOContactsClient.h */,
+				0379A3201AA6E07600FF79AC /* DWOContactsClient.m */,
+				0379A3211AA6E07600FF79AC /* DWOFundingSourcesClient.h */,
+				0379A3221AA6E07600FF79AC /* DWOFundingSourcesClient.m */,
+				0379A3231AA6E07600FF79AC /* DWOMoneyRequestsClient.h */,
+				0379A3241AA6E07600FF79AC /* DWOMoneyRequestsClient.m */,
+				0379A3251AA6E07600FF79AC /* DWORestClient.h */,
+				0379A3261AA6E07600FF79AC /* DWORestClient.m */,
+				0379A3271AA6E07600FF79AC /* DWOTransactionsClient.h */,
+				0379A3281AA6E07600FF79AC /* DWOTransactionsClient.m */,
+				0379A3291AA6E07600FF79AC /* DWOUsersClient.h */,
+				0379A32A1AA6E07600FF79AC /* DWOUsersClient.m */,
 			);
 			path = Clients;
 			sourceTree = "<group>";
@@ -463,8 +463,8 @@
 		0339857A18D9574E005820AC /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				03A06BAD18A8B085008D03E0 /* DWOCredentials.h */,
-				03A06BAE18A8B085008D03E0 /* DWOCredentials.m */,
+				0379A31C1AA6E06400FF79AC /* DWOCredentials.h */,
+				0379A31D1AA6E06400FF79AC /* DWOCredentials.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -899,21 +899,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A06BB918A8B085008D03E0 /* DWOContactsClient.m in Sources */,
 				03A06BF118A8B0A2008D03E0 /* DWOSendRequest.m in Sources */,
 				03A06C2A18A8B0B3008D03E0 /* DWOMeViewController.m in Sources */,
 				032DF3D018E3985D009A37DD /* DWOMoneyRequestsDataSource.m in Sources */,
 				03A06C3B18A8B0D3008D03E0 /* DWONearbyContactCell.m in Sources */,
 				032D66FA18EA1AE9002CF2D5 /* DWODepositToBalanceFundStrategy.m in Sources */,
 				03A06BFC18A8B0A2008D03E0 /* DWOFundRequest.m in Sources */,
-				03A06BBD18A8B085008D03E0 /* DWOMoneyRequestsClient.m in Sources */,
-				03A06BBA18A8B085008D03E0 /* DWORestClient.m in Sources */,
 				0339857518D94756005820AC /* DWOFulfillMoneyRequest.m in Sources */,
 				036936D718CA9D69007A78A7 /* DWOBalancedSourceCell.m in Sources */,
 				032D66FB18EA1AE9002CF2D5 /* DWOWithdrawFromBalanceFundStategy.m in Sources */,
 				03A06C2B18A8B0B3008D03E0 /* DWOTransactionFilterViewController.m in Sources */,
+				0379A32D1AA6E07600FF79AC /* DWOMoneyRequestsClient.m in Sources */,
 				036183AD18DF5C1D00473EBC /* DWORequest.m in Sources */,
 				03A06C2518A8B0B3008D03E0 /* DWOOAuthViewController.m in Sources */,
+				0379A32E1AA6E07600FF79AC /* DWORestClient.m in Sources */,
+				0379A31E1AA6E06400FF79AC /* DWOCredentials.m in Sources */,
 				03A06C2318A8B0B3008D03E0 /* DWOFundingSourcesViewController.m in Sources */,
 				036183A718DF5A3100473EBC /* NSString+DWOTransaction.m in Sources */,
 				032DF3CC18E3985D009A37DD /* DWOContactsDataSource.m in Sources */,
@@ -921,7 +921,6 @@
 				032D670518EA1D1A002CF2D5 /* DWOFulfillMoneyRequestStategy.m in Sources */,
 				032DF3D318E398A8009A37DD /* DWOFundingSourcesPicker.m in Sources */,
 				03A06BF718A8B0A2008D03E0 /* DWOUserSearchFilterOptions.m in Sources */,
-				03A06BC018A8B085008D03E0 /* DWOTransactionConverter.m in Sources */,
 				036183AA18DF5BD200473EBC /* DWORequestResponse.m in Sources */,
 				032D670E18EA262B002CF2D5 /* DWOMoneyRequest+Dwolla.m in Sources */,
 				03A06C1F18A8B0B3008D03E0 /* DWOActivityViewController.m in Sources */,
@@ -931,6 +930,7 @@
 				03A06C3818A8B0D3008D03E0 /* DWOAvatarImageView.m in Sources */,
 				03A06C2818A8B0B3008D03E0 /* DWOSearchViewController.m in Sources */,
 				03A06C3918A8B0D3008D03E0 /* DWOContactCell.m in Sources */,
+				0379A32B1AA6E07600FF79AC /* DWOContactsClient.m in Sources */,
 				036936DE18CE562A007A78A7 /* DWOFundingSource+Dwolla.m in Sources */,
 				032DF3B418E39821009A37DD /* DWONearbyContactAnnotation.m in Sources */,
 				03A06BF218A8B0A2008D03E0 /* DWOSendResponse.m in Sources */,
@@ -947,22 +947,23 @@
 				03A06BED18A8B0A2008D03E0 /* DWOContact.m in Sources */,
 				03A06C2C18A8B0B3008D03E0 /* DWOTransactionViewController.m in Sources */,
 				0385AD1118C6B01A0031731D /* NSString+Dwolla.m in Sources */,
-				03A06BBF18A8B085008D03E0 /* DWOUsersClient.m in Sources */,
 				036183C018E148EA00473EBC /* DWORequestViewController.m in Sources */,
 				03A06C5C18A8B69B008D03E0 /* DWOAppConstants.m in Sources */,
 				036183B018E1013300473EBC /* DWORequestCell.m in Sources */,
-				03A06BBB18A8B085008D03E0 /* DWOCredentials.m in Sources */,
 				0339857D18D95889005820AC /* NSObject+NSNull.m in Sources */,
 				037DB66718C3C9EA00C037D8 /* DWOSendToolbar.m in Sources */,
 				036183B418E1280400473EBC /* DWOAccount.m in Sources */,
 				03EA6AB518A5A8A600C6F257 /* main.m in Sources */,
+				0379A32F1AA6E07600FF79AC /* DWOTransactionsClient.m in Sources */,
 				03A06BFB18A8B0A2008D03E0 /* DWONearbyContactsRequest.m in Sources */,
 				037DB66418C3AD2000C037D8 /* DWOTransferViewController.m in Sources */,
 				03E2EC3A18C23D2000ECE6AD /* DWOTransactionsRequest.m in Sources */,
 				03A06C2118A8B0B3008D03E0 /* DWOWebViewController.m in Sources */,
 				03A06BA618A8B06A008D03E0 /* UIColor+Dwolla.m in Sources */,
 				03A9682118AC61BA006ADFF8 /* DWOContactSearchRequest.m in Sources */,
+				0379A32C1AA6E07600FF79AC /* DWOFundingSourcesClient.m in Sources */,
 				036183A418DE90DF00473EBC /* DWORequestsViewController.m in Sources */,
+				0379A3331AA6E08300FF79AC /* DWOTransactionConverter.m in Sources */,
 				0339857818D94779005820AC /* DWOFulfillResponse.m in Sources */,
 				03A06B9218A8B037008D03E0 /* DWOSegueConstants.m in Sources */,
 				03EA6AB918A5A8A600C6F257 /* DWOAppDelegate.m in Sources */,
@@ -982,6 +983,7 @@
 				03A06BEF18A8B0A2008D03E0 /* DWONearbyContact.m in Sources */,
 				032DF3CF18E3985D009A37DD /* DWONearbyContactsTableViewDataSource.m in Sources */,
 				03A06B9018A8B037008D03E0 /* DWORestApiConstants.m in Sources */,
+				0379A3301AA6E07600FF79AC /* DWOUsersClient.m in Sources */,
 				032DF3D618E39A1B009A37DD /* DWOTransactionCell+DWOTransaction.m in Sources */,
 				03A06B9118A8B037008D03E0 /* DWONotificationConstants.m in Sources */,
 				03A06C3D18A8B0D3008D03E0 /* DWOTransactionCell.m in Sources */,
@@ -989,10 +991,8 @@
 				0339856F18D674AE005820AC /* DWODateFormatter.m in Sources */,
 				03A06BA318A8B06A008D03E0 /* NSDate+Dwolla.m in Sources */,
 				03A06BF318A8B0A2008D03E0 /* DWOTransaction.m in Sources */,
-				03A06BBC18A8B085008D03E0 /* DWOFundingSourcesClient.m in Sources */,
 				036183BA18E12EDB00473EBC /* DWOMoneyRequestFee.m in Sources */,
 				032D670818EA242A002CF2D5 /* DWOContact+Dwolla.m in Sources */,
-				03A06BBE18A8B085008D03E0 /* DWOTransactionsClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
